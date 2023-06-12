@@ -1,0 +1,141 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .background-radial-gradient {
+    background: radial-gradient(circle, rgb(34, 11, 130) 0%, rgba(147, 197, 253, 1) 100%);
+  }
+  
+  .form-outline {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-outline input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #225384;
+  }
+  
+  .btn-primary {
+    background-color: #00cc00; 
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #009900; 
+  }
+  
+  .card {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .bg-glass {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  
+  .opacity-70 {
+    opacity: 0.7;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-lg-start {
+    text-align: left;
+  }
+  
+  .my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .display-5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .ls-tight {
+    letter-spacing: -0.5px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .px-4 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .px-md-5 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  
+  .mb-lg-0 {
+    margin-bottom: 0;
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .position-absolute {
+    position: absolute;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
+  .shadow-5-strong {
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  }
+  
+  .z-index-10 {
+    z-index: 10;
+  }
+  
+  .color-primary {
+    color: #007bff;
+  }
+  
+  .color-secondary {
+    color: #0056b3;
+  }
+  
+  .text-primary {
+    color: #007bff;
+  }
+  
+  .text-black {
+    color: #000;
+  }
+  
+  .text-white {
+    color: #1a2fd0;
+  }
+  
+  .opacity-70 {
+    opacity: 0.7;
+  }
+  
+  .text-align-justify {
+    text-align: justify;
+  }
+  

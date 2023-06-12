@@ -1,0 +1,99 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-radial-gradient {
+  background: radial-gradient(circle, #5e74d7, #001b70);
+  padding: 50px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #5e74d7;
+}
+
+.btn-primary {
+  background-color: #5e74d7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #001b70;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #5e74d7;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: block;
+  margin-top: 10px;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(94, 116, 215, 0.1);
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+#radius-shape-1 {
+  top: -40px;
+  left: -40px;
+  width: 120px;
+  height: 120px;
+  background-color: #5e74d7;
+  z-index: 1;
+}
+
+#radius-shape-2 {
+  bottom: -40px;
+  right: -40px;
+  width: 120px;
+  height: 120px;
+  background-color: #5e74d7;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .background-radial-gradient {
+    padding: 20px;
+  }
+
+  .card {
+    box-shadow: none;
+  }
+
+  #radius-shape-1,
+  #radius-shape-2 {
+    display: none;
+  }
+}
